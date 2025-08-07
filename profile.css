@@ -14,10 +14,10 @@
     --text: #D9D9D9;
     --links: #FFD966;
     --neon1: #FFFF00;
-    --neon2: #FFFF66;
-    --neon3: #FFFF99;
-    --neon4: #FFFFCC;
-    --neon5: #FFFFFF;
+    --neon2: #FFBF00;
+    --neon3: #FF7F00;
+    --neon4: #FF3F00;
+    --neon5: #FF0000;
 }
 
 header {
@@ -107,8 +107,8 @@ li {
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 50px;
-    background-color: var(--background1);
-    color: var(--text);
+    background-color: var(--background3);
+    color: var(--textButton);
     transition: all 0.3s ease-in-out;
     border: none;
     margin: auto;
@@ -117,7 +117,7 @@ li {
 }
 
 .btnLinks:hover {
-    background-color: var(--links);
+    background-color: var(--neon3);
     color: var(--textButton);
     box-shadow: 0 0 10px var(--neon1), 0 0 20px var(--neon2), 0 0 30px var(--neon3);
     cursor: pointer;
@@ -138,4 +138,8 @@ li {
 
 a {
     text-decoration: none;
+}
+
+#twitter {
+    background-color: black;
 }
